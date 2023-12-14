@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenProga_2.CirclePage"
+             Title="CirclePage">
+    <VerticalStackLayout>
+        <StackLayout Margin="20">
+            <Label Text="Radio" />
+            <Entry Text="{Binding Radio}" />
+            <Label Text="Área" />
+            <Label Text="{Binding Area}" />
+            <Button Text="Calcular área" Command="{Binding CalculateAreaCommand}" />
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>
